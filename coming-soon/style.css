@@ -22,6 +22,8 @@ html {
   padding: 2rem;
   border-radius: 10px;
   max-width: 400px;
+  position: relative;
+  z-index: 1;
 }
 
 .logo {
@@ -64,4 +66,12 @@ button {
 
 button:hover {
   background-color: #7a1dd1;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
 }
